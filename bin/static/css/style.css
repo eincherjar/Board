@@ -1,0 +1,168 @@
+*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+/*==================================================
+ * Effect 7
+ * ===============================================*/
+.effect7
+{
+    position:relative;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    border-radius:100px / 10px;
+} 
+.effect7:after
+{
+    right:10px; 
+    left:auto; 
+    transform:skew(8deg) rotate(3deg);
+}
+
+/*==================================================
+ * Effect 8
+ * ===============================================*/
+.effect8
+{
+    position:relative;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect8:before, .effect8:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    border-radius:100px / 10px;
+} 
+.effect8:after
+{
+    right:10px; 
+    left:auto; 
+    transform:skew(8deg) rotate(3deg);
+}
+
+.caption > a > header {
+  position: absolute;
+  bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(255, 255, 255,1);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    padding: 10px 10px;
+}
+.caption > a > header > h3 {
+  margin: 0;
+  color: #9b59b6;
+  text-shadow: 0 1px 0 black;
+}
+.caption > a > header > h5 {
+  margin: 0;
+  color: #e74c3c;
+  text-shadow: 0 1px 0 black;
+    margin-top: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.thumbnail {
+    height: 50vh;
+}
+footer p {
+    text-align: center;
+}
+.navbar-brand>img {
+    width: 100px;
+}
+.icon {
+    margin-right: 5px;
+}
+.no-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+.notice {
+    margin-top: 30px;
+}
+.detail {
+    margin-top: 50px;
+}
+.detail h2 {
+    margin-top: 0;
+}
+.detail-img {
+    margin-top: 50px;
+}
+.navbar-header {
+    margin-left: 5% !important;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+.navbar-nav>li>a {
+    font-family: 'Poppins', sans-serif;
+}
